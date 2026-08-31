@@ -1,5 +1,4 @@
 module "rg" {
-  source = "../../Module/azurerm_rg"
-  rg =var.rg
-  
+  source = "../../module/azurerm_rg"
+  rg = var.rg
 }
